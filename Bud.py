@@ -2,7 +2,8 @@ import telebot
 from telebot import types
 import random
 
-bot = telebot.TeleBot("7721997031:AAF5l0Y67AeyUQQ8lyWRPI1Lv7v-ty887l0")  # замените на свой токен
+import os
+bot = telebot.TeleBot(os.getenv("7721997031:AAHorBkDPu4thdaaN5iRHB_b0ipH_Q1LC9k"))
 
 user_language = {}  # словарь, где храним язык для каждого пользователя
 
